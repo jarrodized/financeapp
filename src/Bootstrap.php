@@ -27,15 +27,6 @@ $whoops->register();
 $request = new \Http\HttpRequest($_GET, $_POST, $_COOKIE, $_FILES, $_SERVER);
 $response = new \Http\HttpResponse;
 
-// $dispatcher = \FastRoute\simpleDispatcher(function (\FastRoute\RouteCollector $r) {
-//   $r->addRoute('GET', '/hello-world', function () {
-//       echo 'Hello World';
-//   });
-//   $r->addRoute('GET', '/another-route', function () {
-//       echo 'This works too';
-//   });
-// });
-
 $routeDefinitionCallback = function (\FastRoute\RouteCollector $r) {
   $routes = include('Routes.php');
   foreach ($routes as $route) {
@@ -56,9 +47,12 @@ switch ($routeInfo[0]) {
       $response->setStatusCode(405);
       break;
   case \FastRoute\Dispatcher::FOUND:
-      $handler = $routeInfo[1];
+      $className = $routeInfo[1][0];
+      $method = $routeInfo[1][1];
       $vars = $routeInfo[2];
-      call_user_func($handler, $vars);
+      
+      $class = new $className;
+      $class->$method($vars);
       break;
 }
 

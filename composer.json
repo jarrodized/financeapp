@@ -1,0 +1,21 @@
+{
+    "name": "jarrodrougeau/financeapp",
+    "description": "Application to manage Rougeau household finances.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jarrod Rougeau",
+            "email": "jarrodrougeau@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "^2.3",
+        "patricklouys/http": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Finances\\": "src/"
+        }
+    }
+}

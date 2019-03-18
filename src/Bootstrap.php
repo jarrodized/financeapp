@@ -27,6 +27,9 @@ $whoops->register();
 $request = new \Http\HttpRequest($_GET, $_POST, $_COOKIE, $_FILES, $_SERVER);
 $response = new \Http\HttpResponse;
 
+/**
+ * Do routing logic
+ */
 $routeDefinitionCallback = function (\FastRoute\RouteCollector $r) {
   $routes = include('Routes.php');
   foreach ($routes as $route) {
@@ -51,7 +54,7 @@ switch ($routeInfo[0]) {
       $method = $routeInfo[1][1];
       $vars = $routeInfo[2];
       
-      $class = new $className;
+      $class = new $className($response);
       $class->$method($vars);
       break;
 }

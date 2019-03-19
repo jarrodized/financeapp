@@ -27,4 +27,12 @@ $injector->define('Mustache_Engine', [
     ],
 ]);
 
+/* Finances\Page\FilePageReader Object */
+$injector->define('Finances\Page\FilePageReader', [
+    ':pageFolder' => __DIR__ . '/../pages',
+]);
+
+$injector->alias('Finances\Page\PageReader', 'Finances\Page\FilePageReader');
+$injector->share('Finances\Page\FilePageReader');
+
 return $injector;

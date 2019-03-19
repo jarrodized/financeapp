@@ -18,4 +18,5 @@
  */
 return [
   ['GET', '/', ['Finances\Controllers\Homepage', 'show']],
+  ['GET', '/{slug}', ['Finances\Controllers\Page', 'show']],
 ];

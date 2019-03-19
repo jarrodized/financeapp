@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Example;
+namespace Fincances;
 
 require __DIR__ . '/../vendor/autoload.php';
 

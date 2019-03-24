@@ -5,8 +5,18 @@ namespace Fincances;
 require __DIR__ . '/../vendor/autoload.php';
 
 error_reporting(E_ALL);
+ini_set("log_errors", '1');
+ini_set("error_log", __DIR__ ."/../logs/php_errors.log");
 
 $environment = 'development';
+
+/* Register the logger */
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+// create a log channel
+// $log = new Logger('name');
+// $log->pushHandler(new StreamHandler(__DIR__.'/../logs/php_errors.log', Logger::DEBUG));
 
 /**
 * Register the error handler
@@ -19,7 +29,7 @@ if ($environment !== 'production') {
         echo 'Todo: Friendly error page and send an email to the developer';
     });
 }
-$whoops->register();
+// $whoops->register();
 
 /**
  * Register the request and response

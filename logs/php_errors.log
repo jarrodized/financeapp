@@ -1,0 +1,1606 @@
+[2019-03-19 20:58:22] name.INFO: My logger is now ready [] []
+[2019-03-19 21:01:28] name.INFO: My logger is now ready [] []
+[2019-03-19 21:01:48] name.INFO: My logger is now ready [] []
+[2019-03-19 21:02:10] name.INFO: My logger is now ready [] []
+[2019-03-19 21:02:32] name.INFO: My logger is now ready [] []
+[24-Mar-2019 02:43:01 UTC] Hello, errors!
+[24-Mar-2019 02:43:01 UTC] PHP Fatal error:  Uncaught LogicException: You must set a loader first. in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php:818
+Stack trace:
+#0 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(352): Twig\Environment->getLoader()
+#1 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(446): Twig\Environment->getTemplateClass('Homepage.html')
+#2 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(424): Twig\Environment->loadTemplate('Homepage.html')
+#3 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(385): Twig\Environment->load('Homepage.html')
+#4 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Template/TwigRenderer.php(18): Twig\Environment->render('Homepage.html', Array)
+#5 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Con in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php on line 818
+[24-Mar-2019 02:43:31 UTC] Http\HttpRequest
+[24-Mar-2019 02:43:31 UTC] http\httprequest
+[24-Mar-2019 02:43:31 UTC] Http\HttpResponse
+[24-Mar-2019 02:43:31 UTC] http\httpresponse
+[24-Mar-2019 02:43:31 UTC] Finances\Controllers\Homepage
+[24-Mar-2019 02:43:31 UTC] finances\controllers\homepage
+[24-Mar-2019 02:43:31 UTC] Http\HttpRequest
+[24-Mar-2019 02:43:31 UTC] http\httprequest
+[24-Mar-2019 02:43:31 UTC] Http\HttpResponse
+[24-Mar-2019 02:43:31 UTC] http\httpresponse
+[24-Mar-2019 02:43:31 UTC] Finances\Template\TwigRenderer
+[24-Mar-2019 02:43:31 UTC] finances\template\twigrenderer
+[24-Mar-2019 02:43:31 UTC] Twig\Environment
+[24-Mar-2019 02:43:31 UTC] twig\environment
+[24-Mar-2019 02:43:31 UTC] PHP Fatal error:  Uncaught LogicException: You must set a loader first. in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php:818
+Stack trace:
+#0 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(352): Twig\Environment->getLoader()
+#1 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(446): Twig\Environment->getTemplateClass('Homepage.html')
+#2 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(424): Twig\Environment->loadTemplate('Homepage.html')
+#3 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(385): Twig\Environment->load('Homepage.html')
+#4 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Template/TwigRenderer.php(18): Twig\Environment->render('Homepage.html', Array)
+#5 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Con in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php on line 818
+[24-Mar-2019 02:44:45 UTC] Http\HttpRequest
+[24-Mar-2019 02:44:45 UTC] http\httprequest
+[24-Mar-2019 02:44:45 UTC] Http\HttpResponse
+[24-Mar-2019 02:44:45 UTC] http\httpresponse
+[24-Mar-2019 02:44:45 UTC] Finances\Controllers\Homepage
+[24-Mar-2019 02:44:45 UTC] finances\controllers\homepage
+[24-Mar-2019 02:44:45 UTC] Http\HttpRequest
+[24-Mar-2019 02:44:45 UTC] http\httprequest
+[24-Mar-2019 02:44:45 UTC] Http\HttpResponse
+[24-Mar-2019 02:44:45 UTC] http\httpresponse
+[24-Mar-2019 02:44:45 UTC] Finances\Template\TwigRenderer
+[24-Mar-2019 02:44:45 UTC] finances\template\twigrenderer
+[24-Mar-2019 02:44:45 UTC] Twig\Environment
+[24-Mar-2019 02:44:45 UTC] twig\environment
+[24-Mar-2019 02:44:45 UTC] PHP Fatal error:  Uncaught LogicException: You must set a loader first. in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php:818
+Stack trace:
+#0 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(352): Twig\Environment->getLoader()
+#1 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(446): Twig\Environment->getTemplateClass('Homepage.html')
+#2 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(424): Twig\Environment->loadTemplate('Homepage.html')
+#3 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(385): Twig\Environment->load('Homepage.html')
+#4 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Template/TwigRenderer.php(18): Twig\Environment->render('Homepage.html', Array)
+#5 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Con in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php on line 818
+[24-Mar-2019 02:45:46 UTC] Http\HttpRequest
+[24-Mar-2019 02:45:46 UTC] http\httprequest
+[24-Mar-2019 02:45:46 UTC] 1
+[24-Mar-2019 02:45:46 UTC] Http\HttpResponse
+[24-Mar-2019 02:45:46 UTC] http\httpresponse
+[24-Mar-2019 02:45:46 UTC] 1
+[24-Mar-2019 02:45:46 UTC] Finances\Controllers\Homepage
+[24-Mar-2019 02:45:46 UTC] finances\controllers\homepage
+[24-Mar-2019 02:45:46 UTC] 1
+[24-Mar-2019 02:45:46 UTC] Http\HttpRequest
+[24-Mar-2019 02:45:46 UTC] http\httprequest
+[24-Mar-2019 02:45:46 UTC] Http\HttpResponse
+[24-Mar-2019 02:45:46 UTC] http\httpresponse
+[24-Mar-2019 02:45:46 UTC] Finances\Template\TwigRenderer
+[24-Mar-2019 02:45:46 UTC] finances\template\twigrenderer
+[24-Mar-2019 02:45:46 UTC] 1
+[24-Mar-2019 02:45:46 UTC] Twig\Environment
+[24-Mar-2019 02:45:46 UTC] twig\environment
+[24-Mar-2019 02:45:46 UTC] 1
+[24-Mar-2019 02:45:46 UTC] PHP Fatal error:  Uncaught LogicException: You must set a loader first. in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php:818
+Stack trace:
+#0 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(352): Twig\Environment->getLoader()
+#1 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(446): Twig\Environment->getTemplateClass('Homepage.html')
+#2 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(424): Twig\Environment->loadTemplate('Homepage.html')
+#3 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(385): Twig\Environment->load('Homepage.html')
+#4 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Template/TwigRenderer.php(18): Twig\Environment->render('Homepage.html', Array)
+#5 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Con in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php on line 818
+[24-Mar-2019 02:46:01 UTC] Http\HttpRequest
+[24-Mar-2019 02:46:01 UTC] http\httprequest
+[24-Mar-2019 02:46:01 UTC] Array
+(
+    [twig_environment] => Closure Object
+        (
+            [static] => Array
+                (
+                    [injector] => Auryn\Injector Object
+                        (
+                            [reflector:Auryn\Injector:private] => Auryn\CachingReflector Object
+                                (
+                                    [reflector:Auryn\CachingReflector:private] => Auryn\StandardReflector Object
+                                        (
+                                        )
+
+                                    [cache:Auryn\CachingReflector:private] => Auryn\ReflectionCacheArray Object
+                                        (
+                                            [cache:Auryn\ReflectionCacheArray:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [classDefinitions:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => Array
+                                        (
+                                            [:get] => Array
+                                                (
+                                                )
+
+                                            [:post] => Array
+                                                (
+                                                )
+
+                                            [:cookies] => Array
+                                                (
+                                                )
+
+                                            [:files] => Array
+                                                (
+                                                )
+
+                                            [:server] => Array
+                                                (
+                                                    [DOCUMENT_ROOT] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public
+                                                    [REMOTE_ADDR] => ::1
+                                                    [REMOTE_PORT] => 52576
+                                                    [SERVER_SOFTWARE] => PHP 7.2.4 Development Server
+                                                    [SERVER_PROTOCOL] => HTTP/1.1
+                                                    [SERVER_NAME] => localhost
+                                                    [SERVER_PORT] => 8000
+                                                    [REQUEST_URI] => /
+                                                    [REQUEST_METHOD] => GET
+                                                    [SCRIPT_NAME] => /index.php
+                                                    [SCRIPT_FILENAME] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public/index.php
+                                                    [PHP_SELF] => /index.php
+                                                    [HTTP_HOST] => localhost:8000
+                                                    [HTTP_CONNECTION] => keep-alive
+                                                    [HTTP_CACHE_CONTROL] => max-age=0
+                                                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                                                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+                                                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                                                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                                                    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,la;q=0.8
+                                                    [HTTP_DNT] => 1
+                                                    [REQUEST_TIME_FLOAT] => 1553395561.2231
+                                                    [REQUEST_TIME] => 1553395561
+                                                )
+
+                                        )
+
+                                    [mustache_engine] => Array
+                                        (
+                                            [:options] => Array
+                                                (
+                                                    [loader] => Mustache_Loader_FilesystemLoader Object
+                                                        (
+                                                            [baseDir:Mustache_Loader_FilesystemLoader:private] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/templates
+                                                            [extension:Mustache_Loader_FilesystemLoader:private] => .html
+                                                            [templates:Mustache_Loader_FilesystemLoader:private] => Array
+                                                                (
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [finances\page\filepagereader] => Array
+                                        (
+                                            [:pageFolder] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/../pages
+                                        )
+
+                                )
+
+                            [paramDefinitions:Auryn\Injector:private] => Array
+                                (
+                                )
+
+                            [aliases:Auryn\Injector:private] => Array
+                                (
+                                    [http\request] => Http\HttpRequest
+                                    [http\response] => Http\HttpResponse
+                                    [finances\template\renderer] => Finances\Template\TwigRenderer
+                                    [finances\page\pagereader] => Finances\Page\FilePageReader
+                                )
+
+                            [shares:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => 
+                                    [http\httpresponse] => 
+                                    [finances\page\filepagereader] => 
+                                )
+
+                            [prepares:Auryn\Injector:private] => Array
+                                (
+                                )
+
+                            [delegates:Auryn\Injector:private] => Array
+ *RECURSION*
+                            [inProgressMakes:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[24-Mar-2019 02:46:01 UTC] Http\HttpResponse
+[24-Mar-2019 02:46:01 UTC] http\httpresponse
+[24-Mar-2019 02:46:01 UTC] Array
+(
+    [twig_environment] => Closure Object
+        (
+            [static] => Array
+                (
+                    [injector] => Auryn\Injector Object
+                        (
+                            [reflector:Auryn\Injector:private] => Auryn\CachingReflector Object
+                                (
+                                    [reflector:Auryn\CachingReflector:private] => Auryn\StandardReflector Object
+                                        (
+                                        )
+
+                                    [cache:Auryn\CachingReflector:private] => Auryn\ReflectionCacheArray Object
+                                        (
+                                            [cache:Auryn\ReflectionCacheArray:private] => Array
+                                                (
+                                                    [auryn.refls.classes.http\httprequest] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\HttpRequest
+                                                        )
+
+                                                    [auryn.refls.ctors.http\httprequest] => ReflectionMethod Object
+                                                        (
+                                                            [name] => __construct
+                                                            [class] => Http\HttpRequest
+                                                        )
+
+                                                    [auryn.refls.ctor-params.http\httprequest] => Array
+                                                        (
+                                                            [0] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => get
+                                                                )
+
+                                                            [1] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => post
+                                                                )
+
+                                                            [2] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => cookies
+                                                                )
+
+                                                            [3] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => files
+                                                                )
+
+                                                            [4] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => server
+                                                                )
+
+                                                            [5] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => inputStream
+                                                                )
+
+                                                        )
+
+                                                    [auryn.refls.classes.http\httprequest.__construct.param-inputstream] => 
+                                                )
+
+                                        )
+
+                                )
+
+                            [classDefinitions:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => Array
+                                        (
+                                            [:get] => Array
+                                                (
+                                                )
+
+                                            [:post] => Array
+                                                (
+                                                )
+
+                                            [:cookies] => Array
+                                                (
+                                                )
+
+                                            [:files] => Array
+                                                (
+                                                )
+
+                                            [:server] => Array
+                                                (
+                                                    [DOCUMENT_ROOT] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public
+                                                    [REMOTE_ADDR] => ::1
+                                                    [REMOTE_PORT] => 52576
+                                                    [SERVER_SOFTWARE] => PHP 7.2.4 Development Server
+                                                    [SERVER_PROTOCOL] => HTTP/1.1
+                                                    [SERVER_NAME] => localhost
+                                                    [SERVER_PORT] => 8000
+                                                    [REQUEST_URI] => /
+                                                    [REQUEST_METHOD] => GET
+                                                    [SCRIPT_NAME] => /index.php
+                                                    [SCRIPT_FILENAME] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public/index.php
+                                                    [PHP_SELF] => /index.php
+                                                    [HTTP_HOST] => localhost:8000
+                                                    [HTTP_CONNECTION] => keep-alive
+                                                    [HTTP_CACHE_CONTROL] => max-age=0
+                                                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                                                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+                                                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                                                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                                                    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,la;q=0.8
+                                                    [HTTP_DNT] => 1
+                                                    [REQUEST_TIME_FLOAT] => 1553395561.2231
+                                                    [REQUEST_TIME] => 1553395561
+                                                )
+
+                                        )
+
+                                    [mustache_engine] => Array
+                                        (
+                                            [:options] => Array
+                                                (
+                                                    [loader] => Mustache_Loader_FilesystemLoader Object
+                                                        (
+                                                            [baseDir:Mustache_Loader_FilesystemLoader:private] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/templates
+                                                            [extension:Mustache_Loader_FilesystemLoader:private] => .html
+                                                            [templates:Mustache_Loader_FilesystemLoader:private] => Array
+                                                                (
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [finances\page\filepagereader] => Array
+                                        (
+                                            [:pageFolder] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/../pages
+                                        )
+
+                                )
+
+                            [paramDefinitions:Auryn\Injector:private] => Array
+                                (
+                                )
+
+                            [aliases:Auryn\Injector:private] => Array
+                                (
+                                    [http\request] => Http\HttpRequest
+                                    [http\response] => Http\HttpResponse
+                                    [finances\template\renderer] => Finances\Template\TwigRenderer
+                                    [finances\page\pagereader] => Finances\Page\FilePageReader
+                                )
+
+                            [shares:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => Http\HttpRequest Object
+                                        (
+                                            [getParameters:protected] => Array
+                                                (
+                                                )
+
+                                            [postParameters:protected] => Array
+                                                (
+                                                )
+
+                                            [server:protected] => Array
+                                                (
+                                                    [DOCUMENT_ROOT] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public
+                                                    [REMOTE_ADDR] => ::1
+                                                    [REMOTE_PORT] => 52576
+                                                    [SERVER_SOFTWARE] => PHP 7.2.4 Development Server
+                                                    [SERVER_PROTOCOL] => HTTP/1.1
+                                                    [SERVER_NAME] => localhost
+                                                    [SERVER_PORT] => 8000
+                                                    [REQUEST_URI] => /
+                                                    [REQUEST_METHOD] => GET
+                                                    [SCRIPT_NAME] => /index.php
+                                                    [SCRIPT_FILENAME] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public/index.php
+                                                    [PHP_SELF] => /index.php
+                                                    [HTTP_HOST] => localhost:8000
+                                                    [HTTP_CONNECTION] => keep-alive
+                                                    [HTTP_CACHE_CONTROL] => max-age=0
+                                                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                                                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+                                                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                                                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                                                    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,la;q=0.8
+                                                    [HTTP_DNT] => 1
+                                                    [REQUEST_TIME_FLOAT] => 1553395561.2231
+                                                    [REQUEST_TIME] => 1553395561
+                                                )
+
+                                            [files:protected] => Array
+                                                (
+                                                )
+
+                                            [cookies:protected] => Array
+                                                (
+                                                )
+
+                                            [inputStream] => 
+                                        )
+
+                                    [http\httpresponse] => 
+                                    [finances\page\filepagereader] => 
+                                )
+
+                            [prepares:Auryn\Injector:private] => Array
+                                (
+                                )
+
+                            [delegates:Auryn\Injector:private] => Array
+ *RECURSION*
+                            [inProgressMakes:Auryn\Injector:private] => Array
+                                (
+                                    [http\httpresponse] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[24-Mar-2019 02:46:01 UTC] Finances\Controllers\Homepage
+[24-Mar-2019 02:46:01 UTC] finances\controllers\homepage
+[24-Mar-2019 02:46:01 UTC] Array
+(
+    [twig_environment] => Closure Object
+        (
+            [static] => Array
+                (
+                    [injector] => Auryn\Injector Object
+                        (
+                            [reflector:Auryn\Injector:private] => Auryn\CachingReflector Object
+                                (
+                                    [reflector:Auryn\CachingReflector:private] => Auryn\StandardReflector Object
+                                        (
+                                        )
+
+                                    [cache:Auryn\CachingReflector:private] => Auryn\ReflectionCacheArray Object
+                                        (
+                                            [cache:Auryn\ReflectionCacheArray:private] => Array
+                                                (
+                                                    [auryn.refls.classes.http\httprequest] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\HttpRequest
+                                                        )
+
+                                                    [auryn.refls.ctors.http\httprequest] => ReflectionMethod Object
+                                                        (
+                                                            [name] => __construct
+                                                            [class] => Http\HttpRequest
+                                                        )
+
+                                                    [auryn.refls.ctor-params.http\httprequest] => Array
+                                                        (
+                                                            [0] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => get
+                                                                )
+
+                                                            [1] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => post
+                                                                )
+
+                                                            [2] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => cookies
+                                                                )
+
+                                                            [3] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => files
+                                                                )
+
+                                                            [4] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => server
+                                                                )
+
+                                                            [5] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => inputStream
+                                                                )
+
+                                                        )
+
+                                                    [auryn.refls.classes.http\httprequest.__construct.param-inputstream] => 
+                                                    [auryn.refls.classes.http\httpresponse] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\HttpResponse
+                                                        )
+
+                                                    [auryn.refls.ctors.http\httpresponse] => 
+                                                )
+
+                                        )
+
+                                )
+
+                            [classDefinitions:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => Array
+                                        (
+                                            [:get] => Array
+                                                (
+                                                )
+
+                                            [:post] => Array
+                                                (
+                                                )
+
+                                            [:cookies] => Array
+                                                (
+                                                )
+
+                                            [:files] => Array
+                                                (
+                                                )
+
+                                            [:server] => Array
+                                                (
+                                                    [DOCUMENT_ROOT] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public
+                                                    [REMOTE_ADDR] => ::1
+                                                    [REMOTE_PORT] => 52576
+                                                    [SERVER_SOFTWARE] => PHP 7.2.4 Development Server
+                                                    [SERVER_PROTOCOL] => HTTP/1.1
+                                                    [SERVER_NAME] => localhost
+                                                    [SERVER_PORT] => 8000
+                                                    [REQUEST_URI] => /
+                                                    [REQUEST_METHOD] => GET
+                                                    [SCRIPT_NAME] => /index.php
+                                                    [SCRIPT_FILENAME] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public/index.php
+                                                    [PHP_SELF] => /index.php
+                                                    [HTTP_HOST] => localhost:8000
+                                                    [HTTP_CONNECTION] => keep-alive
+                                                    [HTTP_CACHE_CONTROL] => max-age=0
+                                                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                                                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+                                                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                                                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                                                    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,la;q=0.8
+                                                    [HTTP_DNT] => 1
+                                                    [REQUEST_TIME_FLOAT] => 1553395561.2231
+                                                    [REQUEST_TIME] => 1553395561
+                                                )
+
+                                        )
+
+                                    [mustache_engine] => Array
+                                        (
+                                            [:options] => Array
+                                                (
+                                                    [loader] => Mustache_Loader_FilesystemLoader Object
+                                                        (
+                                                            [baseDir:Mustache_Loader_FilesystemLoader:private] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/templates
+                                                            [extension:Mustache_Loader_FilesystemLoader:private] => .html
+                                                            [templates:Mustache_Loader_FilesystemLoader:private] => Array
+                                                                (
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [finances\page\filepagereader] => Array
+                                        (
+                                            [:pageFolder] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/../pages
+                                        )
+
+                                )
+
+                            [paramDefinitions:Auryn\Injector:private] => Array
+                                (
+                                )
+
+                            [aliases:Auryn\Injector:private] => Array
+                                (
+                                    [http\request] => Http\HttpRequest
+                                    [http\response] => Http\HttpResponse
+                                    [finances\template\renderer] => Finances\Template\TwigRenderer
+                                    [finances\page\pagereader] => Finances\Page\FilePageReader
+                                )
+
+                            [shares:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => Http\HttpRequest Object
+                                        (
+                                            [getParameters:protected] => Array
+                                                (
+                                                )
+
+                                            [postParameters:protected] => Array
+                                                (
+                                                )
+
+                                            [server:protected] => Array
+                                                (
+                                                    [DOCUMENT_ROOT] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public
+                                                    [REMOTE_ADDR] => ::1
+                                                    [REMOTE_PORT] => 52576
+                                                    [SERVER_SOFTWARE] => PHP 7.2.4 Development Server
+                                                    [SERVER_PROTOCOL] => HTTP/1.1
+                                                    [SERVER_NAME] => localhost
+                                                    [SERVER_PORT] => 8000
+                                                    [REQUEST_URI] => /
+                                                    [REQUEST_METHOD] => GET
+                                                    [SCRIPT_NAME] => /index.php
+                                                    [SCRIPT_FILENAME] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public/index.php
+                                                    [PHP_SELF] => /index.php
+                                                    [HTTP_HOST] => localhost:8000
+                                                    [HTTP_CONNECTION] => keep-alive
+                                                    [HTTP_CACHE_CONTROL] => max-age=0
+                                                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                                                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+                                                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                                                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                                                    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,la;q=0.8
+                                                    [HTTP_DNT] => 1
+                                                    [REQUEST_TIME_FLOAT] => 1553395561.2231
+                                                    [REQUEST_TIME] => 1553395561
+                                                )
+
+                                            [files:protected] => Array
+                                                (
+                                                )
+
+                                            [cookies:protected] => Array
+                                                (
+                                                )
+
+                                            [inputStream] => 
+                                        )
+
+                                    [http\httpresponse] => Http\HttpResponse Object
+                                        (
+                                            [version:Http\HttpResponse:private] => 1.1
+                                            [statusCode:Http\HttpResponse:private] => 200
+                                            [statusText:Http\HttpResponse:private] => OK
+                                            [headers:Http\HttpResponse:private] => Array
+                                                (
+                                                )
+
+                                            [cookies:Http\HttpResponse:private] => Array
+                                                (
+                                                )
+
+                                            [content:Http\HttpResponse:private] => 
+                                            [statusTexts:Http\HttpResponse:private] => Array
+                                                (
+                                                    [100] => Continue
+                                                    [101] => Switching Protocols
+                                                    [102] => Processing
+                                                    [200] => OK
+                                                    [201] => Created
+                                                    [202] => Accepted
+                                                    [203] => Non-Authoritative Information
+                                                    [204] => No Content
+                                                    [205] => Reset Content
+                                                    [206] => Partial Content
+                                                    [207] => Multi-Status
+                                                    [208] => Already Reported
+                                                    [226] => IM Used
+                                                    [300] => Multiple Choices
+                                                    [301] => Moved Permanently
+                                                    [302] => Found
+                                                    [303] => See Other
+                                                    [304] => Not Modified
+                                                    [305] => Use Proxy
+                                                    [306] => Reserved
+                                                    [307] => Temporary Redirect
+                                                    [308] => Permanent Redirect
+                                                    [400] => Bad Request
+                                                    [401] => Unauthorized
+                                                    [402] => Payment Required
+                                                    [403] => Forbidden
+                                                    [404] => Not Found
+                                                    [405] => Method Not Allowed
+                                                    [406] => Not Acceptable
+                                                    [407] => Proxy Authentication Required
+                                                    [408] => Request Timeout
+                                                    [409] => Conflict
+                                                    [410] => Gone
+                                                    [411] => Length Required
+                                                    [412] => Precondition Failed
+                                                    [413] => Request Entity Too Large
+                                                    [414] => Request-URI Too Long
+                                                    [415] => Unsupported Media Type
+                                                    [416] => Requested Range Not Satisfiable
+                                                    [417] => Expectation Failed
+                                                    [418] => I'm a teapot
+                                                    [422] => Unprocessable Entity
+                                                    [423] => Locked
+                                                    [424] => Failed Dependency
+                                                    [425] => Reserved for WebDAV advanced collections expired proposal
+                                                    [426] => Upgrade Required
+                                                    [428] => Precondition Required
+                                                    [429] => Too Many Requests
+                                                    [431] => Request Header Fields Too Large
+                                                    [500] => Internal Server Error
+                                                    [501] => Not Implemented
+                                                    [502] => Bad Gateway
+                                                    [503] => Service Unavailable
+                                                    [504] => Gateway Timeout
+                                                    [505] => HTTP Version Not Supported
+                                                    [506] => Variant Also Negotiates
+                                                    [507] => Insufficient Storage
+                                                    [508] => Loop Detected
+                                                    [510] => Not Extended
+                                                    [511] => Network Authentication Required
+                                                )
+
+                                        )
+
+                                    [finances\page\filepagereader] => 
+                                )
+
+                            [prepares:Auryn\Injector:private] => Array
+                                (
+                                )
+
+                            [delegates:Auryn\Injector:private] => Array
+ *RECURSION*
+                            [inProgressMakes:Auryn\Injector:private] => Array
+                                (
+                                    [finances\controllers\homepage] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[24-Mar-2019 02:46:01 UTC] Http\HttpRequest
+[24-Mar-2019 02:46:01 UTC] http\httprequest
+[24-Mar-2019 02:46:01 UTC] Http\HttpResponse
+[24-Mar-2019 02:46:01 UTC] http\httpresponse
+[24-Mar-2019 02:46:01 UTC] Finances\Template\TwigRenderer
+[24-Mar-2019 02:46:01 UTC] finances\template\twigrenderer
+[24-Mar-2019 02:46:01 UTC] Array
+(
+    [twig_environment] => Closure Object
+        (
+            [static] => Array
+                (
+                    [injector] => Auryn\Injector Object
+                        (
+                            [reflector:Auryn\Injector:private] => Auryn\CachingReflector Object
+                                (
+                                    [reflector:Auryn\CachingReflector:private] => Auryn\StandardReflector Object
+                                        (
+                                        )
+
+                                    [cache:Auryn\CachingReflector:private] => Auryn\ReflectionCacheArray Object
+                                        (
+                                            [cache:Auryn\ReflectionCacheArray:private] => Array
+                                                (
+                                                    [auryn.refls.classes.http\httprequest] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\HttpRequest
+                                                        )
+
+                                                    [auryn.refls.ctors.http\httprequest] => ReflectionMethod Object
+                                                        (
+                                                            [name] => __construct
+                                                            [class] => Http\HttpRequest
+                                                        )
+
+                                                    [auryn.refls.ctor-params.http\httprequest] => Array
+                                                        (
+                                                            [0] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => get
+                                                                )
+
+                                                            [1] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => post
+                                                                )
+
+                                                            [2] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => cookies
+                                                                )
+
+                                                            [3] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => files
+                                                                )
+
+                                                            [4] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => server
+                                                                )
+
+                                                            [5] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => inputStream
+                                                                )
+
+                                                        )
+
+                                                    [auryn.refls.classes.http\httprequest.__construct.param-inputstream] => 
+                                                    [auryn.refls.classes.http\httpresponse] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\HttpResponse
+                                                        )
+
+                                                    [auryn.refls.ctors.http\httpresponse] => 
+                                                    [auryn.refls.classes.finances\controllers\homepage] => ReflectionClass Object
+                                                        (
+                                                            [name] => Finances\Controllers\Homepage
+                                                        )
+
+                                                    [auryn.refls.ctors.finances\controllers\homepage] => ReflectionMethod Object
+                                                        (
+                                                            [name] => __construct
+                                                            [class] => Finances\Controllers\Homepage
+                                                        )
+
+                                                    [auryn.refls.ctor-params.finances\controllers\homepage] => Array
+                                                        (
+                                                            [0] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => request
+                                                                )
+
+                                                            [1] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => response
+                                                                )
+
+                                                            [2] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => renderer
+                                                                )
+
+                                                        )
+
+                                                    [auryn.refls.classes.http\request] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\Request
+                                                        )
+
+                                                    [auryn.refls.classes.finances\controllers\homepage.__construct.param-request] => Http\Request
+                                                    [auryn.refls.classes.http\response] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\Response
+                                                        )
+
+                                                    [auryn.refls.classes.finances\controllers\homepage.__construct.param-response] => Http\Response
+                                                    [auryn.refls.classes.finances\template\renderer] => ReflectionClass Object
+                                                        (
+                                                            [name] => Finances\Template\Renderer
+                                                        )
+
+                                                    [auryn.refls.classes.finances\controllers\homepage.__construct.param-renderer] => Finances\Template\Renderer
+                                                )
+
+                                        )
+
+                                )
+
+                            [classDefinitions:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => Array
+                                        (
+                                            [:get] => Array
+                                                (
+                                                )
+
+                                            [:post] => Array
+                                                (
+                                                )
+
+                                            [:cookies] => Array
+                                                (
+                                                )
+
+                                            [:files] => Array
+                                                (
+                                                )
+
+                                            [:server] => Array
+                                                (
+                                                    [DOCUMENT_ROOT] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public
+                                                    [REMOTE_ADDR] => ::1
+                                                    [REMOTE_PORT] => 52576
+                                                    [SERVER_SOFTWARE] => PHP 7.2.4 Development Server
+                                                    [SERVER_PROTOCOL] => HTTP/1.1
+                                                    [SERVER_NAME] => localhost
+                                                    [SERVER_PORT] => 8000
+                                                    [REQUEST_URI] => /
+                                                    [REQUEST_METHOD] => GET
+                                                    [SCRIPT_NAME] => /index.php
+                                                    [SCRIPT_FILENAME] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public/index.php
+                                                    [PHP_SELF] => /index.php
+                                                    [HTTP_HOST] => localhost:8000
+                                                    [HTTP_CONNECTION] => keep-alive
+                                                    [HTTP_CACHE_CONTROL] => max-age=0
+                                                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                                                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+                                                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                                                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                                                    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,la;q=0.8
+                                                    [HTTP_DNT] => 1
+                                                    [REQUEST_TIME_FLOAT] => 1553395561.2231
+                                                    [REQUEST_TIME] => 1553395561
+                                                )
+
+                                        )
+
+                                    [mustache_engine] => Array
+                                        (
+                                            [:options] => Array
+                                                (
+                                                    [loader] => Mustache_Loader_FilesystemLoader Object
+                                                        (
+                                                            [baseDir:Mustache_Loader_FilesystemLoader:private] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/templates
+                                                            [extension:Mustache_Loader_FilesystemLoader:private] => .html
+                                                            [templates:Mustache_Loader_FilesystemLoader:private] => Array
+                                                                (
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [finances\page\filepagereader] => Array
+                                        (
+                                            [:pageFolder] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/../pages
+                                        )
+
+                                )
+
+                            [paramDefinitions:Auryn\Injector:private] => Array
+                                (
+                                )
+
+                            [aliases:Auryn\Injector:private] => Array
+                                (
+                                    [http\request] => Http\HttpRequest
+                                    [http\response] => Http\HttpResponse
+                                    [finances\template\renderer] => Finances\Template\TwigRenderer
+                                    [finances\page\pagereader] => Finances\Page\FilePageReader
+                                )
+
+                            [shares:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => Http\HttpRequest Object
+                                        (
+                                            [getParameters:protected] => Array
+                                                (
+                                                )
+
+                                            [postParameters:protected] => Array
+                                                (
+                                                )
+
+                                            [server:protected] => Array
+                                                (
+                                                    [DOCUMENT_ROOT] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public
+                                                    [REMOTE_ADDR] => ::1
+                                                    [REMOTE_PORT] => 52576
+                                                    [SERVER_SOFTWARE] => PHP 7.2.4 Development Server
+                                                    [SERVER_PROTOCOL] => HTTP/1.1
+                                                    [SERVER_NAME] => localhost
+                                                    [SERVER_PORT] => 8000
+                                                    [REQUEST_URI] => /
+                                                    [REQUEST_METHOD] => GET
+                                                    [SCRIPT_NAME] => /index.php
+                                                    [SCRIPT_FILENAME] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public/index.php
+                                                    [PHP_SELF] => /index.php
+                                                    [HTTP_HOST] => localhost:8000
+                                                    [HTTP_CONNECTION] => keep-alive
+                                                    [HTTP_CACHE_CONTROL] => max-age=0
+                                                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                                                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+                                                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                                                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                                                    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,la;q=0.8
+                                                    [HTTP_DNT] => 1
+                                                    [REQUEST_TIME_FLOAT] => 1553395561.2231
+                                                    [REQUEST_TIME] => 1553395561
+                                                )
+
+                                            [files:protected] => Array
+                                                (
+                                                )
+
+                                            [cookies:protected] => Array
+                                                (
+                                                )
+
+                                            [inputStream] => 
+                                        )
+
+                                    [http\httpresponse] => Http\HttpResponse Object
+                                        (
+                                            [version:Http\HttpResponse:private] => 1.1
+                                            [statusCode:Http\HttpResponse:private] => 200
+                                            [statusText:Http\HttpResponse:private] => OK
+                                            [headers:Http\HttpResponse:private] => Array
+                                                (
+                                                )
+
+                                            [cookies:Http\HttpResponse:private] => Array
+                                                (
+                                                )
+
+                                            [content:Http\HttpResponse:private] => 
+                                            [statusTexts:Http\HttpResponse:private] => Array
+                                                (
+                                                    [100] => Continue
+                                                    [101] => Switching Protocols
+                                                    [102] => Processing
+                                                    [200] => OK
+                                                    [201] => Created
+                                                    [202] => Accepted
+                                                    [203] => Non-Authoritative Information
+                                                    [204] => No Content
+                                                    [205] => Reset Content
+                                                    [206] => Partial Content
+                                                    [207] => Multi-Status
+                                                    [208] => Already Reported
+                                                    [226] => IM Used
+                                                    [300] => Multiple Choices
+                                                    [301] => Moved Permanently
+                                                    [302] => Found
+                                                    [303] => See Other
+                                                    [304] => Not Modified
+                                                    [305] => Use Proxy
+                                                    [306] => Reserved
+                                                    [307] => Temporary Redirect
+                                                    [308] => Permanent Redirect
+                                                    [400] => Bad Request
+                                                    [401] => Unauthorized
+                                                    [402] => Payment Required
+                                                    [403] => Forbidden
+                                                    [404] => Not Found
+                                                    [405] => Method Not Allowed
+                                                    [406] => Not Acceptable
+                                                    [407] => Proxy Authentication Required
+                                                    [408] => Request Timeout
+                                                    [409] => Conflict
+                                                    [410] => Gone
+                                                    [411] => Length Required
+                                                    [412] => Precondition Failed
+                                                    [413] => Request Entity Too Large
+                                                    [414] => Request-URI Too Long
+                                                    [415] => Unsupported Media Type
+                                                    [416] => Requested Range Not Satisfiable
+                                                    [417] => Expectation Failed
+                                                    [418] => I'm a teapot
+                                                    [422] => Unprocessable Entity
+                                                    [423] => Locked
+                                                    [424] => Failed Dependency
+                                                    [425] => Reserved for WebDAV advanced collections expired proposal
+                                                    [426] => Upgrade Required
+                                                    [428] => Precondition Required
+                                                    [429] => Too Many Requests
+                                                    [431] => Request Header Fields Too Large
+                                                    [500] => Internal Server Error
+                                                    [501] => Not Implemented
+                                                    [502] => Bad Gateway
+                                                    [503] => Service Unavailable
+                                                    [504] => Gateway Timeout
+                                                    [505] => HTTP Version Not Supported
+                                                    [506] => Variant Also Negotiates
+                                                    [507] => Insufficient Storage
+                                                    [508] => Loop Detected
+                                                    [510] => Not Extended
+                                                    [511] => Network Authentication Required
+                                                )
+
+                                        )
+
+                                    [finances\page\filepagereader] => 
+                                )
+
+                            [prepares:Auryn\Injector:private] => Array
+                                (
+                                )
+
+                            [delegates:Auryn\Injector:private] => Array
+ *RECURSION*
+                            [inProgressMakes:Auryn\Injector:private] => Array
+                                (
+                                    [finances\controllers\homepage] => 0
+                                    [finances\template\twigrenderer] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[24-Mar-2019 02:46:01 UTC] Twig\Environment
+[24-Mar-2019 02:46:01 UTC] twig\environment
+[24-Mar-2019 02:46:01 UTC] Array
+(
+    [twig_environment] => Closure Object
+        (
+            [static] => Array
+                (
+                    [injector] => Auryn\Injector Object
+                        (
+                            [reflector:Auryn\Injector:private] => Auryn\CachingReflector Object
+                                (
+                                    [reflector:Auryn\CachingReflector:private] => Auryn\StandardReflector Object
+                                        (
+                                        )
+
+                                    [cache:Auryn\CachingReflector:private] => Auryn\ReflectionCacheArray Object
+                                        (
+                                            [cache:Auryn\ReflectionCacheArray:private] => Array
+                                                (
+                                                    [auryn.refls.classes.http\httprequest] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\HttpRequest
+                                                        )
+
+                                                    [auryn.refls.ctors.http\httprequest] => ReflectionMethod Object
+                                                        (
+                                                            [name] => __construct
+                                                            [class] => Http\HttpRequest
+                                                        )
+
+                                                    [auryn.refls.ctor-params.http\httprequest] => Array
+                                                        (
+                                                            [0] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => get
+                                                                )
+
+                                                            [1] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => post
+                                                                )
+
+                                                            [2] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => cookies
+                                                                )
+
+                                                            [3] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => files
+                                                                )
+
+                                                            [4] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => server
+                                                                )
+
+                                                            [5] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => inputStream
+                                                                )
+
+                                                        )
+
+                                                    [auryn.refls.classes.http\httprequest.__construct.param-inputstream] => 
+                                                    [auryn.refls.classes.http\httpresponse] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\HttpResponse
+                                                        )
+
+                                                    [auryn.refls.ctors.http\httpresponse] => 
+                                                    [auryn.refls.classes.finances\controllers\homepage] => ReflectionClass Object
+                                                        (
+                                                            [name] => Finances\Controllers\Homepage
+                                                        )
+
+                                                    [auryn.refls.ctors.finances\controllers\homepage] => ReflectionMethod Object
+                                                        (
+                                                            [name] => __construct
+                                                            [class] => Finances\Controllers\Homepage
+                                                        )
+
+                                                    [auryn.refls.ctor-params.finances\controllers\homepage] => Array
+                                                        (
+                                                            [0] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => request
+                                                                )
+
+                                                            [1] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => response
+                                                                )
+
+                                                            [2] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => renderer
+                                                                )
+
+                                                        )
+
+                                                    [auryn.refls.classes.http\request] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\Request
+                                                        )
+
+                                                    [auryn.refls.classes.finances\controllers\homepage.__construct.param-request] => Http\Request
+                                                    [auryn.refls.classes.http\response] => ReflectionClass Object
+                                                        (
+                                                            [name] => Http\Response
+                                                        )
+
+                                                    [auryn.refls.classes.finances\controllers\homepage.__construct.param-response] => Http\Response
+                                                    [auryn.refls.classes.finances\template\renderer] => ReflectionClass Object
+                                                        (
+                                                            [name] => Finances\Template\Renderer
+                                                        )
+
+                                                    [auryn.refls.classes.finances\controllers\homepage.__construct.param-renderer] => Finances\Template\Renderer
+                                                    [auryn.refls.classes.finances\template\twigrenderer] => ReflectionClass Object
+                                                        (
+                                                            [name] => Finances\Template\TwigRenderer
+                                                        )
+
+                                                    [auryn.refls.ctors.finances\template\twigrenderer] => ReflectionMethod Object
+                                                        (
+                                                            [name] => __construct
+                                                            [class] => Finances\Template\TwigRenderer
+                                                        )
+
+                                                    [auryn.refls.ctor-params.finances\template\twigrenderer] => Array
+                                                        (
+                                                            [0] => ReflectionParameter Object
+                                                                (
+                                                                    [name] => renderer
+                                                                )
+
+                                                        )
+
+                                                    [auryn.refls.classes.twig\environment] => ReflectionClass Object
+                                                        (
+                                                            [name] => Twig\Environment
+                                                        )
+
+                                                    [auryn.refls.classes.finances\template\twigrenderer.__construct.param-renderer] => Twig\Environment
+                                                )
+
+                                        )
+
+                                )
+
+                            [classDefinitions:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => Array
+                                        (
+                                            [:get] => Array
+                                                (
+                                                )
+
+                                            [:post] => Array
+                                                (
+                                                )
+
+                                            [:cookies] => Array
+                                                (
+                                                )
+
+                                            [:files] => Array
+                                                (
+                                                )
+
+                                            [:server] => Array
+                                                (
+                                                    [DOCUMENT_ROOT] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public
+                                                    [REMOTE_ADDR] => ::1
+                                                    [REMOTE_PORT] => 52576
+                                                    [SERVER_SOFTWARE] => PHP 7.2.4 Development Server
+                                                    [SERVER_PROTOCOL] => HTTP/1.1
+                                                    [SERVER_NAME] => localhost
+                                                    [SERVER_PORT] => 8000
+                                                    [REQUEST_URI] => /
+                                                    [REQUEST_METHOD] => GET
+                                                    [SCRIPT_NAME] => /index.php
+                                                    [SCRIPT_FILENAME] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public/index.php
+                                                    [PHP_SELF] => /index.php
+                                                    [HTTP_HOST] => localhost:8000
+                                                    [HTTP_CONNECTION] => keep-alive
+                                                    [HTTP_CACHE_CONTROL] => max-age=0
+                                                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                                                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+                                                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                                                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                                                    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,la;q=0.8
+                                                    [HTTP_DNT] => 1
+                                                    [REQUEST_TIME_FLOAT] => 1553395561.2231
+                                                    [REQUEST_TIME] => 1553395561
+                                                )
+
+                                        )
+
+                                    [mustache_engine] => Array
+                                        (
+                                            [:options] => Array
+                                                (
+                                                    [loader] => Mustache_Loader_FilesystemLoader Object
+                                                        (
+                                                            [baseDir:Mustache_Loader_FilesystemLoader:private] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/templates
+                                                            [extension:Mustache_Loader_FilesystemLoader:private] => .html
+                                                            [templates:Mustache_Loader_FilesystemLoader:private] => Array
+                                                                (
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [finances\page\filepagereader] => Array
+                                        (
+                                            [:pageFolder] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/../pages
+                                        )
+
+                                )
+
+                            [paramDefinitions:Auryn\Injector:private] => Array
+                                (
+                                )
+
+                            [aliases:Auryn\Injector:private] => Array
+                                (
+                                    [http\request] => Http\HttpRequest
+                                    [http\response] => Http\HttpResponse
+                                    [finances\template\renderer] => Finances\Template\TwigRenderer
+                                    [finances\page\pagereader] => Finances\Page\FilePageReader
+                                )
+
+                            [shares:Auryn\Injector:private] => Array
+                                (
+                                    [http\httprequest] => Http\HttpRequest Object
+                                        (
+                                            [getParameters:protected] => Array
+                                                (
+                                                )
+
+                                            [postParameters:protected] => Array
+                                                (
+                                                )
+
+                                            [server:protected] => Array
+                                                (
+                                                    [DOCUMENT_ROOT] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public
+                                                    [REMOTE_ADDR] => ::1
+                                                    [REMOTE_PORT] => 52576
+                                                    [SERVER_SOFTWARE] => PHP 7.2.4 Development Server
+                                                    [SERVER_PROTOCOL] => HTTP/1.1
+                                                    [SERVER_NAME] => localhost
+                                                    [SERVER_PORT] => 8000
+                                                    [REQUEST_URI] => /
+                                                    [REQUEST_METHOD] => GET
+                                                    [SCRIPT_NAME] => /index.php
+                                                    [SCRIPT_FILENAME] => /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/public/index.php
+                                                    [PHP_SELF] => /index.php
+                                                    [HTTP_HOST] => localhost:8000
+                                                    [HTTP_CONNECTION] => keep-alive
+                                                    [HTTP_CACHE_CONTROL] => max-age=0
+                                                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                                                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+                                                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                                                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                                                    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,la;q=0.8
+                                                    [HTTP_DNT] => 1
+                                                    [REQUEST_TIME_FLOAT] => 1553395561.2231
+                                                    [REQUEST_TIME] => 1553395561
+                                                )
+
+                                            [files:protected] => Array
+                                                (
+                                                )
+
+                                            [cookies:protected] => Array
+                                                (
+                                                )
+
+                                            [inputStream] => 
+                                        )
+
+                                    [http\httpresponse] => Http\HttpResponse Object
+                                        (
+                                            [version:Http\HttpResponse:private] => 1.1
+                                            [statusCode:Http\HttpResponse:private] => 200
+                                            [statusText:Http\HttpResponse:private] => OK
+                                            [headers:Http\HttpResponse:private] => Array
+                                                (
+                                                )
+
+                                            [cookies:Http\HttpResponse:private] => Array
+                                                (
+                                                )
+
+                                            [content:Http\HttpResponse:private] => 
+                                            [statusTexts:Http\HttpResponse:private] => Array
+                                                (
+                                                    [100] => Continue
+                                                    [101] => Switching Protocols
+                                                    [102] => Processing
+                                                    [200] => OK
+                                                    [201] => Created
+                                                    [202] => Accepted
+                                                    [203] => Non-Authoritative Information
+                                                    [204] => No Content
+                                                    [205] => Reset Content
+                                                    [206] => Partial Content
+                                                    [207] => Multi-Status
+                                                    [208] => Already Reported
+                                                    [226] => IM Used
+                                                    [300] => Multiple Choices
+                                                    [301] => Moved Permanently
+                                                    [302] => Found
+                                                    [303] => See Other
+                                                    [304] => Not Modified
+                                                    [305] => Use Proxy
+                                                    [306] => Reserved
+                                                    [307] => Temporary Redirect
+                                                    [308] => Permanent Redirect
+                                                    [400] => Bad Request
+                                                    [401] => Unauthorized
+                                                    [402] => Payment Required
+                                                    [403] => Forbidden
+                                                    [404] => Not Found
+                                                    [405] => Method Not Allowed
+                                                    [406] => Not Acceptable
+                                                    [407] => Proxy Authentication Required
+                                                    [408] => Request Timeout
+                                                    [409] => Conflict
+                                                    [410] => Gone
+                                                    [411] => Length Required
+                                                    [412] => Precondition Failed
+                                                    [413] => Request Entity Too Large
+                                                    [414] => Request-URI Too Long
+                                                    [415] => Unsupported Media Type
+                                                    [416] => Requested Range Not Satisfiable
+                                                    [417] => Expectation Failed
+                                                    [418] => I'm a teapot
+                                                    [422] => Unprocessable Entity
+                                                    [423] => Locked
+                                                    [424] => Failed Dependency
+                                                    [425] => Reserved for WebDAV advanced collections expired proposal
+                                                    [426] => Upgrade Required
+                                                    [428] => Precondition Required
+                                                    [429] => Too Many Requests
+                                                    [431] => Request Header Fields Too Large
+                                                    [500] => Internal Server Error
+                                                    [501] => Not Implemented
+                                                    [502] => Bad Gateway
+                                                    [503] => Service Unavailable
+                                                    [504] => Gateway Timeout
+                                                    [505] => HTTP Version Not Supported
+                                                    [506] => Variant Also Negotiates
+                                                    [507] => Insufficient Storage
+                                                    [508] => Loop Detected
+                                                    [510] => Not Extended
+                                                    [511] => Network Authentication Required
+                                                )
+
+                                        )
+
+                                    [finances\page\filepagereader] => 
+                                )
+
+                            [prepares:Auryn\Injector:private] => Array
+                                (
+                                )
+
+                            [delegates:Auryn\Injector:private] => Array
+ *RECURSION*
+                            [inProgressMakes:Auryn\Injector:private] => Array
+                                (
+                                    [finances\controllers\homepage] => 0
+                                    [finances\template\twigrenderer] => 1
+                                    [twig\environment] => 2
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[24-Mar-2019 02:46:01 UTC] PHP Fatal error:  Uncaught LogicException: You must set a loader first. in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php:818
+Stack trace:
+#0 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(352): Twig\Environment->getLoader()
+#1 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(446): Twig\Environment->getTemplateClass('Homepage.html')
+#2 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(424): Twig\Environment->loadTemplate('Homepage.html')
+#3 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(385): Twig\Environment->load('Homepage.html')
+#4 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Template/TwigRenderer.php(18): Twig\Environment->render('Homepage.html', Array)
+#5 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Con in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php on line 818
+[24-Mar-2019 02:46:52 UTC] Http\HttpRequest
+[24-Mar-2019 02:46:52 UTC] http\httprequest
+[24-Mar-2019 02:46:52 UTC] Http\HttpResponse
+[24-Mar-2019 02:46:52 UTC] http\httpresponse
+[24-Mar-2019 02:46:52 UTC] Finances\Controllers\Homepage
+[24-Mar-2019 02:46:52 UTC] finances\controllers\homepage
+[24-Mar-2019 02:46:52 UTC] Http\HttpRequest
+[24-Mar-2019 02:46:52 UTC] http\httprequest
+[24-Mar-2019 02:46:52 UTC] Http\HttpResponse
+[24-Mar-2019 02:46:52 UTC] http\httpresponse
+[24-Mar-2019 02:46:52 UTC] Finances\Template\TwigRenderer
+[24-Mar-2019 02:46:52 UTC] finances\template\twigrenderer
+[24-Mar-2019 02:46:52 UTC] Twig\Environment
+[24-Mar-2019 02:46:52 UTC] twig\environment
+[24-Mar-2019 02:46:52 UTC] PHP Fatal error:  Uncaught LogicException: You must set a loader first. in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php:818
+Stack trace:
+#0 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(352): Twig\Environment->getLoader()
+#1 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(446): Twig\Environment->getTemplateClass('Homepage.html')
+#2 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(424): Twig\Environment->loadTemplate('Homepage.html')
+#3 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php(385): Twig\Environment->load('Homepage.html')
+#4 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Template/TwigRenderer.php(18): Twig\Environment->render('Homepage.html', Array)
+#5 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/src/Con in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/twig/twig/src/Environment.php on line 818
+[24-Mar-2019 02:48:06 UTC] Http\HttpRequest
+[24-Mar-2019 02:48:06 UTC] http\httprequest
+[24-Mar-2019 02:48:06 UTC] Http\HttpResponse
+[24-Mar-2019 02:48:06 UTC] http\httpresponse
+[24-Mar-2019 02:48:06 UTC] Finances\Controllers\Homepage
+[24-Mar-2019 02:48:06 UTC] finances\controllers\homepage
+[24-Mar-2019 02:48:06 UTC] Http\HttpRequest
+[24-Mar-2019 02:48:06 UTC] http\httprequest
+[24-Mar-2019 02:48:06 UTC] Http\HttpResponse
+[24-Mar-2019 02:48:06 UTC] http\httpresponse
+[24-Mar-2019 02:48:06 UTC] Finances\Template\TwigRenderer
+[24-Mar-2019 02:48:06 UTC] finances\template\twigrenderer
+[24-Mar-2019 02:48:06 UTC] Twig\Environment
+[24-Mar-2019 02:48:06 UTC] twig\environment
+[24-Mar-2019 02:48:06 UTC] its set
+[24-Mar-2019 02:48:33 UTC] Http\HttpRequest
+[24-Mar-2019 02:48:33 UTC] http\httprequest
+[24-Mar-2019 02:48:33 UTC] Http\HttpResponse
+[24-Mar-2019 02:48:33 UTC] http\httpresponse
+[24-Mar-2019 02:48:33 UTC] Finances\Controllers\Homepage
+[24-Mar-2019 02:48:33 UTC] finances\controllers\homepage
+[24-Mar-2019 02:48:33 UTC] Http\HttpRequest
+[24-Mar-2019 02:48:33 UTC] http\httprequest
+[24-Mar-2019 02:48:33 UTC] Http\HttpResponse
+[24-Mar-2019 02:48:33 UTC] http\httpresponse
+[24-Mar-2019 02:48:33 UTC] Finances\Template\TwigRenderer
+[24-Mar-2019 02:48:33 UTC] finances\template\twigrenderer
+[24-Mar-2019 02:48:33 UTC] Twig\Environment
+[24-Mar-2019 02:48:33 UTC] twig\environment
+[24-Mar-2019 02:48:33 UTC] its set
+[24-Mar-2019 02:48:33 UTC] yeah we doin it
+[24-Mar-2019 03:18:49 UTC] PHP Fatal error:  Uncaught Auryn\InjectionException: Injection definition required for interface Finances\Template\FrontendRenderer in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php:432
+Stack trace:
+#0 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php(397): Auryn\Injector->instantiateWithoutCtorParams('Finances\\Templa...')
+#1 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php(377): Auryn\Injector->provisionInstance('Finances\\Templa...', 'finances\\templa...', Array)
+#2 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php(537): Auryn\Injector->make('Finances\\Templa...')
+#3 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php(469): Auryn\Injector->buildArgFromTypeHint(Object(ReflectionMethod), Object(ReflectionParameter))
+#4 /Users/jarrodrougeau/Projects/2019/ in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php on line 432
+[24-Mar-2019 03:19:08 UTC] PHP Fatal error:  Uncaught Auryn\InjectionException: Injection definition required for interface Finances\Template\FrontendRenderer in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php:432
+Stack trace:
+#0 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php(397): Auryn\Injector->instantiateWithoutCtorParams('Finances\\Templa...')
+#1 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php(377): Auryn\Injector->provisionInstance('Finances\\Templa...', 'finances\\templa...', Array)
+#2 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php(537): Auryn\Injector->make('Finances\\Templa...')
+#3 /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php(469): Auryn\Injector->buildArgFromTypeHint(Object(ReflectionMethod), Object(ReflectionParameter))
+#4 /Users/jarrodrougeau/Projects/2019/ in /Users/jarrodrougeau/Projects/2019/finances/financeapp/financeapp/vendor/rdlowrey/auryn/lib/Injector.php on line 432
